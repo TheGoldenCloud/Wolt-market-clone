@@ -18,10 +18,6 @@ function Navbar() {
 
   }
 
-
-
-
-
   return (
     <React.Fragment>
     <div style={style.navbar}>
