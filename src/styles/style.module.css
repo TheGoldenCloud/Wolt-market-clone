@@ -1,3 +1,79 @@
-.navbar{
-    padding-top: 12px;
+
+.adrWindow{
+    border-radius: 10px;
+    background-color: white;
+    width: 450px;
+    padding: 10px;
+    max-width: fit-content;
+    position: absolute;
+    
+    top: 100px;
+    left: 100px;
 }
+
+
+/* INPUT  */
+.inputState{
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: lightgray;
+    border-style: solid;
+    width: 430px;
+    height: 40px;
+}
+  
+.inputState:hover{
+    border-color: rgb(92, 192, 235);
+}
+
+.inputState:active{
+    border-color: rgb(92, 192, 235);
+}
+
+.inputState:focus{
+    outline: none;
+}
+
+/* INPUT */
+
+
+/* SELECT */
+.selectStreet:hover{
+    border-color: rgb(92, 192, 235);
+}
+
+.selectStreet:active{
+    border-color: rgb(92, 192, 235);
+}
+
+.selectStreet{
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: lightgray;
+    background-color: white;
+    border-style: solid;
+    width: 430px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+/* SELECT */
+
+.closeBtn{
+    border-radius: 50%;
+    background-color: rgb(228, 228, 228);
+    width: 40px;
+    justify-content: center;
+    float: right;
+    margin-bottom: 10px;
+}
+
+/* .closeAdr{
+    width: fit-content;
+    color: black;
+
+} */
+
+/* body{
+    background-color: rgba(112, 113, 115,1);    Kada zatamljenje kada se pojavi prozor
+} */
