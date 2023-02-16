@@ -4,6 +4,7 @@ import wolticon from '../photos/wolticon.png';
 
 function Navbar() {
 
+  //Prebaci stylove u css fajl
   let style = {
     navbar:{
       paddingTop: "18px",
