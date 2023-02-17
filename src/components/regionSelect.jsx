@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { IconButton } from '@mui/material';
 import { Box } from "@mui/system";
 
-import region from '../photos/region.png'
+import market from "../photos/region.png";
 
 function RegionSelect() {
 
@@ -30,6 +30,8 @@ function RegionSelect() {
             </select>
             <br/>
             <input className = {style.inputState} placeholder='State'/>
+
+            <img src={market} width = "430px" />
         </div>
     </React.Fragment>
   )
