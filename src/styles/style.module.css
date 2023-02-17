@@ -1,3 +1,21 @@
+/* NAVBAR */
+
+.navbar{
+    border-top-width: "18px";
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputFeald{
+    background-color: whitesmoke;
+}
+
+/* NAVBAR */
+
+
+
+
 
 .adrWindow{
     border-radius: 10px;
@@ -12,7 +30,7 @@
 }
 
 
-/* INPUT  */
+/* INPUT STATE  */
 .inputState{
     border-radius: 7px;
     border-width: 2px;
@@ -34,10 +52,10 @@
     outline: none;
 }
 
-/* INPUT */
+/* INPUT STATE */
 
 
-/* SELECT */
+/* SELECT STATE */
 .selectStreet:hover{
     border-color: rgb(92, 192, 235);
 }
@@ -57,7 +75,7 @@
     margin-bottom: 5px;
 }
 
-/* SELECT */
+/* SELECT STATE */
 
 .closeBtn{
     border-radius: 50%;
@@ -67,12 +85,6 @@
     float: right;
     margin-bottom: 10px;
 }
-
-/* .closeAdr{
-    width: fit-content;
-    color: black;
-
-} */
 
 /* body{
     background-color: rgba(112, 113, 115,1);    Kada zatamljenje kada se pojavi prozor
