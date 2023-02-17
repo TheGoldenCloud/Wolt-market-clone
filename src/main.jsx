@@ -8,7 +8,7 @@ import RegionSelect from './components/regionSelect'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <RegionSelect/>
+      <WoltMarket/>
     </BrowserRouter>  
   </React.StrictMode>,
 )

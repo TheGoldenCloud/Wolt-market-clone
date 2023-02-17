@@ -5,14 +5,15 @@ function WoltMarket() {
 
   let style = {
     body:{
-      paddingInline:"10%"
+      paddingInline:"10%",
+      maginBottom:"0px"
     }
 
   }
 
   return (
     <React.Fragment>
-      <div style = {style.body}>
+      <div style = {style.body} >
         <Navbar/>
       </div>
       <hr />
