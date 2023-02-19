@@ -5,15 +5,68 @@
     border-color: white;
     display: flex;
     justify-content: space-between;
+    margin-inline: 10%;
+    padding-top: 10px;
+    padding-bottom: 7px;
 }
 
 .inputFeald{
-    background-color: whitesmoke;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: lightgray;
+    color: gray;
+    border-style: solid;
+    text-align: center;
+    margin-top: 4px;
 }
+
+.inputFeald:hover{
+    border-color: rgb(92, 192, 235);
+}
+
+.inputFeald:active{
+    border-color: rgb(92, 192, 235);
+}
+
+.inputFeald:focus{
+    outline: none;
+}
+
+.leftNav{
+    display: flex;
+}
+
+.navImg{
+    width: 70px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+
+.labelState{
+    color: rgb(92, 192, 235) !important;
+    font-weight: bolder;
+}
+
+.rns{
+    display: flex;
+}
+
+.rnsa p{
+    font-size: small;
+    padding: 0%;
+    margin: 0%;
+    color: gray;
+}
+
+
 
 /* NAVBAR */
 
 
+.hrline { 
+    border-top: 0.1px solid lightgray;
+} 
 
 
 
